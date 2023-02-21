@@ -23,11 +23,11 @@ public class Main {
     //Task #4
         int deliveryDistance = 95;
     if (deliveryDistance < 20) {
-        System.out.println("Потребуется 1 день доставки");
+        System.out.println("Потребуется: 1 день доставки");
     } else if (deliveryDistance >= 20 && deliveryDistance < 60){
-        System.out.println("Потребуется 2 дня доставки");
+        System.out.println("Потребуется: 2 дня доставки");
     } else if (deliveryDistance >= 60 && deliveryDistance <= 100) {
-        System.out.println("Потребуется 3 дня доставки");
+        System.out.println("Потребуется: 3 дня доставки");
     } else { System.out.println("Свыше 100 км доставка не производится"); }
     //Task #5
     byte monthNumber = 4;
@@ -56,6 +56,7 @@ public class Main {
                 break;
             default:
                 System.out.println("Такого месяца не существует");
+
         }
     }
     }
