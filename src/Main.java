@@ -29,5 +29,33 @@ public class Main {
     } else if (deliveryDistance >= 60 && deliveryDistance <= 100) {
         System.out.println("Потребуется 3 дня доставки");
     } else { System.out.println("Свыше 100 км доставка не производится"); }
+    //Task #5
+    byte monthNumber = 4;
+        switch (monthNumber) {
+            case 1:
+            case 2:
+                System.out.println("Месяц зимнего сезона");
+                break;
+            case 3:
+            case 4:
+            case 5:
+                System.out.println("Месяц весеннего сезона");
+                break;
+            case 6:
+            case 7:
+            case 8:
+                System.out.println("Месяц летнего сезона");
+                break;
+            case 9:
+            case 10:
+            case 11:
+                System.out.println("Месяц осеннего сезона");
+                break;
+            case 12:
+                System.out.println("Месяц зимнего сезона");
+                break;
+            default:
+                System.out.println("Такого месяца не существует");
+        }
     }
-}
+    }
